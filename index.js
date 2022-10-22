@@ -19,7 +19,6 @@ buttons.map( button => {
                 } catch {
                     display.innerText = 'Woops!';
                 }
-
                 break;
             default:
                 display.innerText += e.target.innerText;
